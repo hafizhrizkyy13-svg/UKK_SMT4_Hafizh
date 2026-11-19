@@ -85,46 +85,6 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                 ))}
 
-                {/* Categories */}
-                <SidebarMenuItem>
-                  <SidebarMenuButton asChild className={glossySidebarItemClass}>
-                    <Link href="/admin/categories">
-                      <Users className="mr-2 h-4 w-4 text-emerald-300" />
-                      <span className="font-medium">Categories</span>
-                    </Link>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-
-                {/* Jurusan */}
-                <SidebarMenuItem>
-                  <SidebarMenuButton asChild className={glossySidebarItemClass}>
-                    <Link href="/admin/jurusan">
-                      <GraduationCap className="mr-2 h-4 w-4 text-emerald-300" />
-                      <span className="font-medium">Jurusan</span>
-                    </Link>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-
-                {/* Artikel */}
-                <SidebarMenuItem>
-                  <SidebarMenuButton asChild className={glossySidebarItemClass}>
-                    <Link href="/admin/artikel">
-                      <BookOpen className="mr-2 h-4 w-4 text-emerald-300" />
-                      <span className="font-medium">Artikel</span>
-                    </Link>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-
-                {/* Profile */}
-                <SidebarMenuItem>
-                  <SidebarMenuButton asChild className={glossySidebarItemClass}>
-                    <Link href="/admin/profile">
-                      <Calendar className="mr-2 h-4 w-4 text-emerald-300" />
-                      <span className="font-medium">Profile</span>
-                    </Link>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-
                 {/* Pengaturan */}
                 <SidebarMenuItem>
                   <SidebarMenuButton asChild className={glossySidebarItemClass}>
